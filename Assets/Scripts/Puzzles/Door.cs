@@ -62,15 +62,15 @@ public class Door : ActivationReceiver
         {
             this.hitBox.enabled = true;
             this.gfx.sprite = this.closed;
-        }
 
-        // Restore activators state
-        if (this.senders is null)
-            return;
+            // Restore activators state
+            if (this.senders is null)
+                return;
 
-        foreach (var sender in this.senders)
-        {
-            sender.Restore();
+            foreach (var sender in this.senders)
+            {
+                sender.Restore();
+            }
         }
     }
 }

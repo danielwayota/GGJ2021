@@ -11,6 +11,9 @@ public class RespawnPoint : ActivationSender
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (this.isActivated)
+            return;
+
         this.isActivated = true;
     }
 }

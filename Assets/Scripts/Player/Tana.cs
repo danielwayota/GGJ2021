@@ -23,4 +23,17 @@ public class Tana : MonoBehaviour
 
         this.body.velocity = mov * this.speed;
     }
+
+    public void Respawn(Vector3 location)
+    {
+        this.gameObject.SetActive(true);
+        this.transform.position = location;
+    }
+
+    public void Die()
+    {
+        this.gameObject.SetActive(false);
+
+        GameManager.current.Death();
+    }
 }

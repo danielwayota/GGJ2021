@@ -7,9 +7,14 @@ public class GameManager : ActivationReceiver
     private Vector3 resetPosition;
     private ActivationSender lastRespawnPoint;
 
+    private Tana player;
+
     void Awake()
     {
         current = this;
+
+        this.player = GameObject.FindObjectOfType<Tana>();
+        this.resetPosition = this.player.transform.position;
     }
 
     public override void Activate(bool isValid, ActivationSender sender)
@@ -27,4 +32,14 @@ public class GameManager : ActivationReceiver
     // Ignored
     public override void AddSender(ActivationSender sender) { }
     public override void OnSolvedChanged() {}
+
+    public void Death()
+    {
+        Invoke("Respawn", 1f);
+    }
+
+    public void Respawn()
+    {
+        this.player.Respawn(this.resetPosition);
+    }
 }
