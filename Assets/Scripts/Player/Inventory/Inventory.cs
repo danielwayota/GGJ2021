@@ -33,14 +33,14 @@ public class Inventory : MonoBehaviour
         return true;
     }
 
-    public bool RemoveItemByType(ItemType type)
+    public bool RemoveItemByType(ItemType type, int count = 1)
     {
         switch (type)
         {
             case ItemType.SELF_FRAGMENT:
                 if (this.selfFragmentCount > 0)
                 {
-                    this.selfFragmentCount--;
+                    this.selfFragmentCount -= count;
                     this.selfFragmentsUI.SetItems(this.selfFragmentCount);
                     return true;
                 }
@@ -48,7 +48,7 @@ public class Inventory : MonoBehaviour
             case ItemType.KEY:
                 if (this.keyCount > 0)
                 {
-                    this.keyCount--;
+                    this.keyCount -= count;
                     this.keysUI.SetItems(this.keyCount);
                     return true;
                 }
