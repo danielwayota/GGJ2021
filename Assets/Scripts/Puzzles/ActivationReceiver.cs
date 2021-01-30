@@ -15,5 +15,5 @@ public abstract class ActivationReceiver : MonoBehaviour
 
     public abstract void OnSolvedChanged();
     public abstract void AddSender(ActivationSender sender);
-    public abstract void Activate(bool isValid);
+    public abstract void Activate(bool isValid, ActivationSender sender);
 }

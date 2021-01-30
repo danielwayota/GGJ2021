@@ -21,7 +21,7 @@ public class Door : ActivationReceiver
         this.solved = false;
     }
 
-    public override void Activate(bool isValid)
+    public override void Activate(bool isValid, ActivationSender _)
     {
         if (solved)
             return;

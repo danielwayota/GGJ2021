@@ -2,38 +2,12 @@
 
 public class Button : ActivationSender
 {
-    public Sprite inactive;
-    public Sprite active;
-
-    public ActivationReceiver receiver;
     public bool isAValidButton;
 
-    private SpriteRenderer gfx;
-
-    private bool _isActivated;
-    public bool isActivated
-    {
-        get => this._isActivated;
-        set
-        {
-            this._isActivated = value;
-
-            if (this._isActivated)
-            {
-                this.gfx.sprite = this.active;
-
-                this.receiver.Activate(this.isAValidButton);
-            }
-            else
-            {
-                this.gfx.sprite = this.inactive;
-            }
-        }
-    }
+    protected override bool isValid => this.isAValidButton;
 
     void Start()
     {
-        this.gfx = this.GetComponentInChildren<SpriteRenderer>();
         this.isActivated = false;
 
         if (this.receiver != null)
