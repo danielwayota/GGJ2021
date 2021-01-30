@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 4078129025
+    locked: 0
+  - name: Entites
+    uniqueID: 1454403065
+    locked: 0
+  - name: Overlay
+    uniqueID: 4140909789
+    locked: 0
