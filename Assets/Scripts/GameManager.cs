@@ -8,13 +8,18 @@ public class GameManager : ActivationReceiver
     private ActivationSender lastRespawnPoint;
 
     private Tana player;
+    private CameraFollow playerCamera;
 
     void Awake()
     {
         current = this;
 
         this.player = GameObject.FindObjectOfType<Tana>();
+        this.playerCamera = GameObject.FindObjectOfType<CameraFollow>();
+
         this.resetPosition = this.player.transform.position;
+
+        this.playerCamera.target = this.player.transform;
     }
 
     public override void Activate(bool isValid, ActivationSender sender)
@@ -41,5 +46,6 @@ public class GameManager : ActivationReceiver
     public void Respawn()
     {
         this.player.Respawn(this.resetPosition);
+        this.playerCamera.target = this.player.transform;
     }
 }
