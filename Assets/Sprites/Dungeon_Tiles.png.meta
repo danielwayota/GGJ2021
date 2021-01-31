@@ -59,6 +59,18 @@ TextureImporter:
   - first:
       213: -5114738426084882302
     second: PseudoDevil
+  - first:
+      213: 2995093594856944072
+    second: Key
+  - first:
+      213: -9025662766658435365
+    second: SelfFragment_1
+  - first:
+      213: -4093996405857030167
+    second: SelfFragment_2
+  - first:
+      213: 5025394182410073465
+    second: SelfFragment_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -500,7 +512,7 @@ TextureImporter:
         width: 94
         height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -521,7 +533,7 @@ TextureImporter:
         width: 92
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,7 +554,7 @@ TextureImporter:
         width: 88
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -550,6 +562,90 @@ TextureImporter:
       bones: []
       spriteID: 2888b22208cc409b0800000000000000
       internalID: -5114738426084882302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 528
+        width: 156
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1fe7e71c5b09920800000000000000
+      internalID: 2995093594856944072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelfFragment_1
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 277
+        width: 64
+        height: 139
+      alignment: 9
+      pivot: {x: 0.49550056, y: 0.20653962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6cad2a8876eb280800000000000000
+      internalID: -9025662766658435365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelfFragment_2
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 279
+        width: 65
+        height: 139
+      alignment: 9
+      pivot: {x: 0.50605845, y: 0.19592066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef6a25b5f33f27c0800000000000000
+      internalID: -4093996405857030167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelfFragment_3
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 26
+        width: 62
+        height: 147
+      alignment: 9
+      pivot: {x: 0.4865585, y: 0.17405792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975fdda1269cdb540800000000000000
+      internalID: 5025394182410073465
       vertices: []
       indices: 
       edges: []
