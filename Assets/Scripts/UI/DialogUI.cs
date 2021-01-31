@@ -12,12 +12,12 @@ public class DialogUI : MonoBehaviour
 
     public void Show(string line)
     {
-        this.dialogTextLabel.gameObject.SetActive(true);
+        this.gameObject.SetActive(true);
         this.dialogTextLabel.text = line;
     }
 
     public void Hide()
     {
-        this.dialogTextLabel.gameObject.SetActive(false);
+        this.gameObject.SetActive(false);
     }
 }
