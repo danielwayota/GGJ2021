@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Gate : MonoBehaviour, IInteractive
 {
+    public GameObject smokeEffect;
+
     public void Interact(Tana caller)
     {
         var inventory = caller.GetComponent<Inventory>();
@@ -10,8 +12,9 @@ public class Gate : MonoBehaviour, IInteractive
 
         if (count == 2)
         {
-            caller.PushDialog(new string[] { "ABRIR" });
+            caller.PushDialog(new string[] { "Puerta abierta." });
             Destroy(this.gameObject);
+            Instantiate(this.smokeEffect, this.transform.position, Quaternion.identity);
         }
         else
         {

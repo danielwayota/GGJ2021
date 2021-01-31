@@ -134,6 +134,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78ca06eea084ace44bf49c851e67316e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  splatEffect: {fileID: 2145746065975851887, guid: 68abbad362983f64884b7bfeeaf33018,
+    type: 3}
+  spawnEffect: {fileID: 2145746065975851887, guid: 799b409af970cd94d8cd0547f238698a,
+    type: 3}
   speed: 4
   whatIsInteractuable:
     serializedVersion: 2

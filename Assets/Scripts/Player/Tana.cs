@@ -7,6 +7,9 @@ using UnityEngine;
 /// </summary>
 public class Tana : MonoBehaviour
 {
+    public GameObject splatEffect;
+    public GameObject spawnEffect;
+
     public float speed = 2f;
 
     [Header("Interaction")]
@@ -62,12 +65,16 @@ public class Tana : MonoBehaviour
 
     public void Respawn(Vector3 location)
     {
+        Instantiate(this.spawnEffect, location, Quaternion.identity);
+
         this.gameObject.SetActive(true);
         this.transform.position = location;
     }
 
     public void Die()
     {
+        Instantiate(this.splatEffect, this.transform.position, Quaternion.identity);
+
         this.gameObject.SetActive(false);
 
         GameManager.current.Death();
