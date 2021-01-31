@@ -12,6 +12,9 @@ public class Tana : MonoBehaviour
 
     public float speed = 2f;
 
+    private Animator anim;
+    private bool moving;
+
     [Header("Interaction")]
     public LayerMask whatIsInteractuable;
     public float interactRadius;
@@ -29,6 +32,9 @@ public class Tana : MonoBehaviour
         this.hasDialog = false;
 
         this.dialogLines = new Queue<string>();
+
+        this.anim = this.GetComponent<Animator>();
+        this.moving = false;
     }
 
     void Update()
@@ -46,6 +52,18 @@ public class Tana : MonoBehaviour
         {
             float h = Input.GetAxisRaw("Horizontal");
             float v = Input.GetAxisRaw("Vertical");
+
+            if ((h != 0 || v != 0) && !moving)
+            {
+                Debug.Log("Dafuck");
+                this.moving = true;
+                this.anim.SetBool("Moving", this.moving);
+            }
+            else if (h == 0 & v == 0 && moving)
+            {
+                this.moving = false;
+                this.anim.SetBool("Moving", this.moving);
+            }
 
             mov = (new Vector2(h, v)).normalized;
 

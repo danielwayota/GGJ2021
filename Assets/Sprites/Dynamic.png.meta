@@ -11,6 +11,12 @@ TextureImporter:
   - first:
       213: 5963051177483192473
     second: Star
+  - first:
+      213: 1864602899548412248
+    second: Tana_Body
+  - first:
+      213: 7883086262985622058
+    second: Tana_Head
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -158,7 +164,7 @@ TextureImporter:
         width: 224
         height: 231
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,6 +172,48 @@ TextureImporter:
       bones: []
       spriteID: 9984c5bc37301c250800000000000000
       internalID: 5963051177483192473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tana_Body
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 641
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8591fb2457660e910800000000000000
+      internalID: 1864602899548412248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tana_Head
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 651
+        width: 109
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2205079039566d60800000000000000
+      internalID: 7883086262985622058
       vertices: []
       indices: 
       edges: []
