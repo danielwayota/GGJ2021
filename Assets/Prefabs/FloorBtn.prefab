@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 1454403065
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7637869772900300255, guid: 3e271ada09db9154cb384f873592d499,
+  m_Sprite: {fileID: 6817784229926927296, guid: 43c4b427be2e20b44a406f28637dd057,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -96,9 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1472aa6a6073ce04587c14d28e32554f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inactive: {fileID: -7637869772900300255, guid: 3e271ada09db9154cb384f873592d499,
+  inactive: {fileID: 6817784229926927296, guid: 43c4b427be2e20b44a406f28637dd057,
     type: 3}
-  active: {fileID: -6690937561894257849, guid: 3e271ada09db9154cb384f873592d499, type: 3}
+  active: {fileID: -3724608898708496243, guid: 43c4b427be2e20b44a406f28637dd057, type: 3}
   receiver: {fileID: 0}
   isAValidButton: 1
 --- !u!58 &3837194228631865059

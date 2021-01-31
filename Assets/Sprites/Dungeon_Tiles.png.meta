@@ -38,6 +38,27 @@ TextureImporter:
   - first:
       213: -8929998442558310058
     second: Bonfire_Logs
+  - first:
+      213: 6817784229926927296
+    second: Btn_Inactive
+  - first:
+      213: -3724608898708496243
+    second: Btn_Active
+  - first:
+      213: -4248637024073403710
+    second: Respawn_Inactive
+  - first:
+      213: 2124042621577383743
+    second: Respawn_Active
+  - first:
+      213: -414459964824610865
+    second: Fortitu
+  - first:
+      213: 5458319362708872178
+    second: Sevens
+  - first:
+      213: -5114738426084882302
+    second: PseudoDevil
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -374,7 +395,7 @@ TextureImporter:
         width: 220
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -382,6 +403,153 @@ TextureImporter:
       bones: []
       spriteID: 659358acab5421480800000000000000
       internalID: -8929998442558310058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn_Inactive
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 265
+        width: 221
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbfd0c82a2ad9e50800000000000000
+      internalID: 6817784229926927296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn_Active
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 265
+        width: 221
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80a831c0f78f4cc0800000000000000
+      internalID: -3724608898708496243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Inactive
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 16
+        width: 248
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c23888032fc905c0800000000000000
+      internalID: -4248637024073403710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Respawn_Active
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 15
+        width: 248
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fc8eab28d1a7d10800000000000000
+      internalID: 2124042621577383743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fortitu
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 945
+        width: 94
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7120f9bda8f3af0800000000000000
+      internalID: -414459964824610865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sevens
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 942
+        width: 92
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb16ec7a88dfbb40800000000000000
+      internalID: 5458319362708872178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PseudoDevil
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 833
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2888b22208cc409b0800000000000000
+      internalID: -5114738426084882302
       vertices: []
       indices: 
       edges: []
