@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main player character
+/// </summary>
 public class Tana : MonoBehaviour
 {
     public float speed = 2f;
@@ -43,7 +46,7 @@ public class Tana : MonoBehaviour
 
             mov = (new Vector2(h, v)).normalized;
 
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Jump"))
             {
                 var hit = Physics2D.OverlapCircle(this.transform.position, this.interactRadius, this.whatIsInteractuable);
                 if (hit != null)
