@@ -22,6 +22,14 @@ public class GameManager : ActivationReceiver
         this.playerCamera.target = this.player.transform;
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadScreen.LoadLevel("Menu");
+        }
+    }
+
     public override void Activate(bool isValid, ActivationSender sender)
     {
         if (this.lastRespawnPoint != null)
