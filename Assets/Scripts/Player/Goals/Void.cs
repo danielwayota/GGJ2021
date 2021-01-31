@@ -5,6 +5,8 @@ public class Void : MonoBehaviour, IInteractive
 {
     public GameObject finalShine;
 
+    public AudioSource finalSound;
+
     public SpriteRenderer head;
     public SpriteRenderer body;
 
@@ -21,6 +23,8 @@ public class Void : MonoBehaviour, IInteractive
         if (count == 2)
         {
             Instantiate(this.finalShine, this.transform.position, Quaternion.identity);
+
+            this.finalSound.Play();
 
             caller.PushDialog(new string[] {
                 "¡Felicidades! Hasta aquí llega este minijuego",

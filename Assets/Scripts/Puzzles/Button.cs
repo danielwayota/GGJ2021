@@ -4,6 +4,8 @@ public class Button : ActivationSender
 {
     public bool isAValidButton;
 
+    public AudioSource clickSound;
+
     protected override bool isValid => this.isAValidButton;
 
     void Start()
@@ -45,5 +47,10 @@ public class Button : ActivationSender
     public override void Restore()
     {
         this.isActivated = false;
+    }
+
+    protected override void OnActivate()
+    {
+        this.clickSound.Play();
     }
 }

@@ -7,6 +7,8 @@ public class Item : MonoBehaviour
 {
     public ItemType type;
 
+    public AudioClip pickSound;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         var inventory = other.gameObject.GetComponent<Inventory>();
@@ -18,5 +20,8 @@ public class Item : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
+        if (this.pickSound != null)
+            AudioSource.PlayClipAtPoint(this.pickSound, this.transform.position, 1.5f);
     }
 }

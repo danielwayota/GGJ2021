@@ -10,6 +10,9 @@ public class Tana : MonoBehaviour
     public GameObject splatEffect;
     public GameObject spawnEffect;
 
+    public AudioSource splatAudio;
+    public AudioSource spawnAudio;
+
     public float speed = 2f;
 
     private Animator anim;
@@ -26,6 +29,23 @@ public class Tana : MonoBehaviour
 
     public DialogUI dialogUI;
 
+    private bool _visible = true;
+    private bool visible
+    {
+        set {
+            this._visible = value;
+
+            if (this._visible)
+            {
+                this.transform.localScale = Vector3.one;
+            }
+            else
+            {
+                this.transform.localScale = Vector3.zero;
+            }
+        }
+    }
+
     void Start()
     {
         this.body = this.GetComponent<Rigidbody2D>();
@@ -39,6 +59,12 @@ public class Tana : MonoBehaviour
 
     void Update()
     {
+        if (!this._visible)
+        {
+            this.body.velocity = Vector2.zero;
+            return;
+        }
+
         var mov = Vector2.zero;
 
         if (this.hasDialog)
@@ -83,16 +109,18 @@ public class Tana : MonoBehaviour
     public void Respawn(Vector3 location)
     {
         Instantiate(this.spawnEffect, location, Quaternion.identity);
+        this.spawnAudio.Play();
 
-        this.gameObject.SetActive(true);
+        this.visible = true;
         this.transform.position = location;
     }
 
     public void Die()
     {
         Instantiate(this.splatEffect, this.transform.position, Quaternion.identity);
+        this.splatAudio.Play();
 
-        this.gameObject.SetActive(false);
+        this.visible = false;
 
         GameManager.current.Death();
     }

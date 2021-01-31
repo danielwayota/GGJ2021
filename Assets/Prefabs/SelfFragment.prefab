@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  pickSound: {fileID: 8300000, guid: 0ad0061b0ddd3294aa67373ec7e23efc, type: 3}
 --- !u!70 &332219975671352509
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -4,6 +4,8 @@ public class RespawnPoint : ActivationSender
 {
     protected override bool isValid => true;
 
+    public AudioSource activatedAudio;
+
     public override void Restore()
     {
         this.isActivated = false;
@@ -14,6 +16,7 @@ public class RespawnPoint : ActivationSender
         if (this.isActivated)
             return;
 
+        this.activatedAudio.Play();
         this.isActivated = true;
     }
 }

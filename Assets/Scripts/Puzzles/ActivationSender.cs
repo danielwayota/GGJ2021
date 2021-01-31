@@ -23,6 +23,7 @@ public abstract class ActivationSender : MonoBehaviour
                 this.gfx.sprite = this.active;
 
                 this.receiver.Activate(this.isValid, this);
+                this.OnActivate();
             }
             else
             {
@@ -47,4 +48,6 @@ public abstract class ActivationSender : MonoBehaviour
     public ActivationReceiver receiver;
 
     public abstract void Restore();
+
+    protected virtual void OnActivate() {}
 }
