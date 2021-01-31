@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: 7883086262985622058
     second: Tana_Head
+  - first:
+      213: -9189577202536882139
+    second: Gate
+  - first:
+      213: -2428657310322344993
+    second: Fire_1
+  - first:
+      213: 5232543740434665530
+    second: Fire_2
+  - first:
+      213: -8891779037223702391
+    second: Fire_3
+  - first:
+      213: 8146829714434410499
+    second: Shadow
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -206,7 +221,7 @@ TextureImporter:
         width: 109
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,6 +229,111 @@ TextureImporter:
       bones: []
       spriteID: a2205079039566d60800000000000000
       internalID: 7883086262985622058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 768
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520e2c60930187080800000000000000
+      internalID: -9189577202536882139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 271
+        width: 151
+        height: 228
+      alignment: 9
+      pivot: {x: 0.45821214, y: 0.033442654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbb4193b0dab4ed0800000000000000
+      internalID: -2428657310322344993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 269
+        width: 108
+        height: 201
+      alignment: 9
+      pivot: {x: 0.47149658, y: 0.032487724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a305d480fcabd9840800000000000000
+      internalID: 5232543740434665530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 277
+        width: 126
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5566019, y: 0.029657228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9803409831e0a9480800000000000000
+      internalID: -8891779037223702391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 783
+        width: 195
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308c576267a5f0170800000000000000
+      internalID: 8146829714434410499
       vertices: []
       indices: 
       edges: []

@@ -55,7 +55,6 @@ public class Tana : MonoBehaviour
 
             if ((h != 0 || v != 0) && !moving)
             {
-                Debug.Log("Dafuck");
                 this.moving = true;
                 this.anim.SetBool("Moving", this.moving);
             }
