@@ -27,13 +27,13 @@ public class Void : MonoBehaviour, IInteractive
             this.finalSound.Play();
 
             caller.PushDialog(new string[] {
-                "¡Felicidades! Hasta aquí llega este minijuego",
-                "Gracias por jugar :D"
+                "Congratulations! This is where this minigame ends",
+                "Thanks for playing :D"
             });
         }
         else
         {
-            caller.PushDialog(new string[] { "El vacío te devuelve la mirada." });
+            caller.PushDialog(new string[] { "The void stares back at you" });
         }
     }
 

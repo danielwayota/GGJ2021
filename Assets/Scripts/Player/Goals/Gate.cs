@@ -12,13 +12,13 @@ public class Gate : MonoBehaviour, IInteractive
 
         if (count == 2)
         {
-            caller.PushDialog(new string[] { "Puerta abierta." });
+            caller.PushDialog(new string[] { "Gate open" });
             Destroy(this.gameObject);
             Instantiate(this.smokeEffect, this.transform.position, Quaternion.identity);
         }
         else
         {
-            caller.PushDialog(new string[] { "Hay dos huecos para dos llaves" });
+            caller.PushDialog(new string[] { "There are two holes for two keys" });
         }
     }
 }

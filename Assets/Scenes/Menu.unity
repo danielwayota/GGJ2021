@@ -5173,7 +5173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.4
-  m_Text: CONTROLES
+  m_Text: CONTROLS
 --- !u!222 &1101288151
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5251,8 +5251,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.4
-  m_Text: "Moverse          -> WASD\nInteractuar       -> ESPACIO\nVolver al men\xFA  
-    -> ESCAPE"
+  m_Text: 'Move            -> WASD
+
+    Interact         -> ESPACIO
+
+    Back to
+    menu   -> ESCAPE'
 --- !u!222 &1349025994
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5396,9 +5400,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.25
-  m_Text: 'ESPACIO: Jugar
+  m_Text: 'SPACE: Play
 
-    ESCAPE : Salir'
+    ESCAPE : Exit'
 --- !u!222 &1849382103
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5476,7 +5480,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "JUEGO DE PUZLES SIN T\xCDTULO"
+  m_Text: UNTITLED PUZZLE GAME
 --- !u!222 &1914742307
 CanvasRenderer:
   m_ObjectHideFlags: 0

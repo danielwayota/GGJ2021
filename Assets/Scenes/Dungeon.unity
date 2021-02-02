@@ -11170,7 +11170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - "Encu\xE9ntrate a ti mismo."
+  - Find yourself
 --- !u!58 &1426770744
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11908,7 +11908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Busca el camino oculto.
+  - Find the hidden path
 --- !u!58 &1552119403
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12023,8 +12023,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Dos llaves.
-  - Dos fragmentos del yo.
+  - Two Keys
+  - Two fragments of yourself
 --- !u!58 &1572868000
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13091,7 +13091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Las llamas indican el camino
+  - The flames lead the way
 --- !u!70 &1887143906
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -19038,7 +19038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - "El sentido de la vida, el universo y todo lo dem\xE1s"
+  - The Answer to the Ultimate Question of Life, the Universe, and Everything
 --- !u!70 &1998288530
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -20418,8 +20418,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.3900146, y: 4.1}
-  m_SizeDelta: {x: -30.286438, y: -32.975113}
+  m_AnchoredPosition: {x: 0.26000977, y: -1.6500015}
+  m_SizeDelta: {x: -20.553467, y: -15.492775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2207417230666138885
 MonoBehaviour:
@@ -20451,7 +20451,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: New Text
 --- !u!1 &2207417230666138887
